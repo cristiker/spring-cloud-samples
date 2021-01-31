@@ -4,18 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.cristik</groupId>
-	<artifactId>api-gateway</artifactId>
+	<artifactId>spring-cloud-sample-zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>api-gateway</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-cloud-sample-zuul</name>
+	<description>zuul gateway</description>
 
 	<parent>
 		<groupId>com.cristik</groupId>
-		<artifactId>springcloud</artifactId>
+		<artifactId>spring-cloud-samples</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<dependencies>
@@ -31,19 +30,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>org.springframework.retry</groupId>
 			<artifactId>spring-retry</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
