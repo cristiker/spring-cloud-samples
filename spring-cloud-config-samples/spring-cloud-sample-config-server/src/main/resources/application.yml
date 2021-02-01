@@ -1,0 +1,24 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    refresh:
+      enabled: true
+
+spring:
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          uri: https://gitee.com/cristik/git-config.git
+          #配置目录
+          search-paths: '{application}'
+          #
+          default-label: master
+          force-pull: true
+          deleteUntrackedBranches: true
+          # 更新频率单位秒
+          refresh-rate: 30
