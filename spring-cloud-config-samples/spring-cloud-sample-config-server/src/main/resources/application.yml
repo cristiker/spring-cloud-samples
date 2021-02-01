@@ -22,3 +22,7 @@ spring:
           deleteUntrackedBranches: true
           # 更新频率单位秒
           refresh-rate: 30
+          username: cristik1991@gamil.com
+          password: xxxxx
+      request-connect-timeout: 5
+      request-read-timeout: 3
