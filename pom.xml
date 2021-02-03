@@ -8,9 +8,6 @@
     <artifactId>spring-cloud-samples</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <modules>
-        <module>spring-cloud-config-samples/spring-cloud-sample-apollo</module>
-    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,6 +21,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
+        <spring-aloud-alibaba.version>2.2.4.RELEASE</spring-aloud-alibaba.version>
         <guava.version>30.1-jre</guava.version>
         <redisson.version>3.13.6</redisson.version>
         <apollo.version>1.7.0</apollo.version>
@@ -38,6 +36,15 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-aloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.redisson</groupId>
                 <artifactId>redisson-spring-boot-starter</artifactId>
