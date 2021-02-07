@@ -1,4 +1,4 @@
-package com.crsitik.cloud.config;
+package com.cristik.cloud.config;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
