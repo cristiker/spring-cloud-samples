@@ -2,3 +2,7 @@
 .idea/
 target/
 *.iml
+rebel.xml
+rebel-remote.xml
+.rebel.xml.bak
+.rebel-remote.xml.bak
